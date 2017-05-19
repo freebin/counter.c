@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -D_THREAD_SAFE -D_REENTRANT -g3 -pthread -o ./bin/counter counter.c
+
